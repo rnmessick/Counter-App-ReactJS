@@ -28,12 +28,12 @@ class Counter extends React.Component {
         */
         <input
           type="button"
-          onClick={this.addSubtractClick.bind(this, "add")}
+          onClick={() => this.addSubtractClick("add")}
           value="Add One"
         />
         <input
           type="button"
-          onClick={this.addSubtractClick.bind(this, "sub")}
+          onClick={() => this.addSubtractClick("sub")}
           value="Subtract One"
         />
       </React.Fragment>
